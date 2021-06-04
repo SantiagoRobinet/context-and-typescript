@@ -1,9 +1,14 @@
 import React from 'react';
+import Profile from "./components/Profile/Profile";
+import UsersList from "./components/UsersList/UsersList";
 import './App.css';
 
 function App(): JSX.Element {
   return (
-    <h1>Hello</h1>
+    <>
+      <UsersList/>
+      <Profile/>
+    </>
   );
 }
 
